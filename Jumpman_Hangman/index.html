@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io (1)/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Jumpman: The Last Dance</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="titleGame">Jumpman_</h1> 
+    <div class="chances">Wrong Guesses: <span id='wrongGuesses'>0</span> of <span id="maxWrong"></span></div>
+    <br>
+    <div class="text-center">
+      <img id = "rim"src="/images/net.jpg">
+      <img id = "jordan" src="/images/0.jpg">
+      <br>
+      <p>Guess the word to win the Finals</p>
+      <br>
+      <div id="wordHighlight">word to be guessed goes here</div>
+      <br>
+      <div id="keyboard"></div>
+      <button class="btn btn-info" onClick="reset()">Reset</button>
+    </div>
+    <audio src="/Audio/Jumpman.mp3" controls></audio>
+  </div>
+  <div class="video-container">
+    <video src="goat.mp4" muted loop autoplay></video>
+  </div>
+  <br>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'academic_m54regular';
+  src: url('fonts/academic_m54-webfont.woff2') format('woff2'),
+       url('fonts/academic_m54-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  text-align: center;
+  font-size: 25px;
+  color: #ba161a;
+}
+
+.container {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+h1{
+  font-family: 'academic_m54regular';
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: black;
+  padding-top: 5px;
+  background-color: #ba161a;
+  border-radius: 5px;
+}
+
+.chances {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-family: 'academic_m54regular';
+  color: black;
+}
+
+p {
+  font-family: 'academic_m54regular';
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#jordan {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+}
+
+#rim {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+
+#keyboard {
+  font-family: 'academic_m54regular';
+}
+
+button {
+  background-color: #ba161a; 
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'academic_m54regular';
+}
+
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
